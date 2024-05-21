@@ -1,0 +1,10 @@
+.social-logos {
+    margin-top: 30px;
+    display: flex;
+    gap: 30px;
+}
+
+.social-logos img {
+    height: 50px;
+    width: auto;
+}
