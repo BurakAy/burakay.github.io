@@ -5,6 +5,8 @@ function Weather() {
   const [location, setLocation] = useState({ city: '', state: '' });
   const [temperature, setTemperature] = useState();
 
+  // calling this endpoint to get a user's location information
+  // city, state, latitude, longitude
   const getLocation = () => {
     const locationAPI = "https://geolocation-db.com/json/"
     fetch(locationAPI)
@@ -15,6 +17,8 @@ function Weather() {
       });
   };
 
+  // calling this endpoint and passing in the latitude and longitude coordinates
+  // to get the current weather for that location
   const getWeather = (latitude, longitude) => {
     const weatherAPI = `https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m&temperature_unit=fahrenheit&wind_speed_unit=mph&precipitation_unit=inch`;
     fetch(weatherAPI)
@@ -22,6 +26,8 @@ function Weather() {
       .then(data => setTemperature(data.current.temperature_2m))
   };
 
+  // making sure the APIs are only called on the first render
+  // by passing in an empty array as the second parameter
   useEffect(() => {
     getLocation();
   }, [])
