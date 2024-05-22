@@ -3,9 +3,20 @@
     border-radius: 5px;
     width: 12em;
     padding: 5px 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 20px;
 }
 
 .weather-container p {
     color: #ffffff;
     margin: 7px;
+    font-size: 1em;
+}
+
+@media screen and (max-width: 950px) {
+    .weather-container {
+        display: none;
+    }
 }
