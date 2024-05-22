@@ -1,0 +1,11 @@
+.weather-container {
+    background: rgb(70, 104, 72);
+    border-radius: 5px;
+    width: 12em;
+    padding: 5px 0;
+}
+
+.weather-container p {
+    color: #ffffff;
+    margin: 7px;
+}
