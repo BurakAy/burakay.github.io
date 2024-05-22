@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header';
 import Links from './components/Links';
+import Weather from './components/Weather';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Header />
         <Links />
       </header>
+      <Weather />
     </div>
   );
 }
