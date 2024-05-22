@@ -32,11 +32,21 @@ function Weather() {
     getLocation();
   }, [])
 
-  return (
+  // only displaying the widget if temperature value has been set
+  const displayWeatherWidget = () => {
+    const widget = 
     <div className="weather-container">
       <p id="location">{location.city}, {location.state }</p>
       <p id="temperature">Current Temp: <span id="temperature_value">{ temperature } &#8457;</span></p>
     </div>
+
+    return temperature ? widget : null; 
+  }
+
+  return (
+    <>
+    {displayWeatherWidget()}
+    </>
   );
 }
 
