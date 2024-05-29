@@ -6,5 +6,11 @@
 #header_subtitle {
     margin-top: 0.2em;
     margin-bottom: 0;
-    font-weight: 300;
+    font-weight: 400;
+}
+
+@media (prefers-color-scheme: dark) {
+    #header_subtitle {
+        font-weight: 300;
+    }
 }
