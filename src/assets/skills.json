@@ -1,5 +1,5 @@
 {
-  "skills": [
+  "tech_skills": [
     "Python",
     "JavaScript",
     "React.js",
@@ -15,5 +15,14 @@
     "Debugging",
     "Jira",
     "Agile"
+  ],
+  "soft_skills": [
+    "Adaptability",
+    "Critical thinking",
+    "Problem solving",
+    "Communication",
+    "Creativity",
+    "Independent",
+    "Analytical"
   ]
 }
