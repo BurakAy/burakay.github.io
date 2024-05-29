@@ -7,6 +7,7 @@
     right: 0;
     top: 0;
     margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
 .weather-container p {
@@ -18,5 +19,11 @@
 @media screen and (max-width: 950px) {
     .weather-container {
         display: none;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .weather-container {
+        box-shadow: none;
     }
 }
