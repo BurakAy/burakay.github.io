@@ -1,6 +1,12 @@
 footer {
-    color: #ffffff;
+    color: #282c34;
     margin-top: auto;
     padding-bottom: 1rem;
     font-size: calc(10px + 0.3vmin);
+}
+
+@media (prefers-color-scheme: dark) {
+    footer {
+        color: #ffffff;
+    }
 }
