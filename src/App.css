@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -13,7 +13,7 @@
   align-items: center;
   justify-content: start;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #282c34;
 }
 
 .App-skill-panels {
@@ -33,5 +33,15 @@
 @media screen and (max-width: 680px) {
   .App-skill-panels {
     width: 85vw;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .App {
+    background-color: #282c34;
+  }
+
+  .App-header {
+    color: #ffffff;
   }
 }
