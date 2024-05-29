@@ -30,7 +30,7 @@ function Weather() {
   // by passing in an empty array as the second parameter
   useEffect(() => {
     getLocation();
-  }, [location])
+  }, [])
 
   // only displaying the weather widget if temperature value has been set
   const displayWeatherWidget = () => {
