@@ -2,4 +2,5 @@ footer {
     color: #ffffff;
     margin-top: auto;
     padding-bottom: 1rem;
+    font-size: calc(10px + 0.5vmin);
 }
