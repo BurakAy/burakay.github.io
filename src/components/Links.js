@@ -1,6 +1,6 @@
 import '../styles/Links.css'
-import githubLogo from '../assets/github/github-mark-white.svg'
-import linkedinLogo from '../assets/linkedin/LI-In-Bug.svg'
+import githubLogo from '../assets/github-icons/github-mark-white.svg'
+import linkedinLogo from '../assets/linkedin-icons/LI-In-Bug.svg'
 
 function Links() {
   return (
