@@ -1,16 +1,15 @@
 .panel {
-    width: 33%;
-    margin: 0 auto;
+    flex: 1 1 0;
 }
 
 .panel-wrapper {
     background-color: antiquewhite;
-    padding: 10px;
     border-radius: 5px;
+    padding: 1rem 2rem;
 }
 
 .panel-title {
-    font-size: 2.3rem;
+    font-size: calc(12px + 2vmin);
     text-align: left;
     color: #ffffff;
     text-transform: capitalize;
@@ -22,7 +21,7 @@
     flex-wrap: wrap;
     column-gap: .75em;
     row-gap: 1em;
-    padding-inline-start: 2em;
+    padding: 0;
 }
 
 .pill-tile {
@@ -33,4 +32,10 @@
     font-size: 1.3em;
     cursor: default;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+@media screen and (max-width: 740px) {
+    .panel {
+        flex: 1 1 auto;
+    }
 }
