@@ -1,8 +1,5 @@
 footer {
     color: #ffffff;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    margin-top: auto;
     padding-bottom: 1rem;
 }
