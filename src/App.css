@@ -13,3 +13,11 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.App-skill-panels {
+  margin: 0 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  column-gap: 2rem;
+}
