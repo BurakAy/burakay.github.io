@@ -1,6 +1,4 @@
 import '../styles/Panel.css'
-import techSkills from '../assets/skills.json'
-import { useState } from 'react'
 
 function PillTiles({tiles}) {
   return (
@@ -14,13 +12,12 @@ function PillTiles({tiles}) {
   )
 }
 
-function Panel({panelTitle}) {
-  const [skills, setSkills] = useState(techSkills.skills);
+function Panel({panelTitle, tiles}) {
   return (
     <div className="panel">
       <h3 className='panel-title'>{panelTitle}</h3>
       <div className="panel-wrapper">
-        <PillTiles tiles={skills} />
+        <PillTiles tiles={tiles} />
       </div>
     </div>
   )
