@@ -16,7 +16,7 @@
   color: #282c34;
 }
 
-.App-skill-panels {
+.App-panels {
   margin: 0 auto 2rem;
   width: 70vw;
   display: flex;
@@ -24,14 +24,22 @@
   column-gap: 2rem;
 }
 
+.section-title {
+  font-size: calc(12px + 2vmin);
+  text-align: left;
+  color: #282c34;
+  text-transform: capitalize;
+  margin-bottom: .75rem;
+}
+
 @media screen and (max-width: 980px) {
-  .App-skill-panels {
+  .App-panels {
     width: 80vw;
   }
 }
 
 @media screen and (max-width: 680px) {
-  .App-skill-panels {
+  .App-panels {
     width: 85vw;
   }
 }
@@ -41,7 +49,7 @@
     background-color: #282c34;
   }
 
-  .App-header {
+  .App-header, .section-title {
     color: #ffffff;
   }
 }
