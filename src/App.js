@@ -1,11 +1,12 @@
-import './App.css';
-import Header from './components/Header';
-import Links from './components/Links';
-import Weather from './components/Weather';
-import Panel from './components/Panel';
-import Footer from './components/Footer';
-import skills from './assets/skills.json'
-import { useState } from 'react'
+import "./App.css";
+import Header from "./components/Header";
+import Links from "./components/Links";
+import Weather from "./components/Weather";
+import Panel from "./components/Panel";
+import Footer from "./components/Footer";
+import skills from "./assets/skills.json";
+import Featured from "./components/Featured";
+import { useState } from "react";
 
 function App() {
   const [technicalSkills, setTechSkills] = useState(skills.tech_skills);
@@ -18,9 +19,12 @@ function App() {
         <Links />
       </header>
       <Weather />
-      <div className='App-skill-panels'>
-        <Panel panelTitle={'technical skills'} tiles={technicalSkills} />
-        <Panel panelTitle={'soft skills'} tiles={softSkills} />
+      <div className="App-panels">
+        <Featured />
+      </div>
+      <div className="App-panels">
+        <Panel panelTitle={"technical skills"} tiles={technicalSkills} />
+        <Panel panelTitle={"soft skills"} tiles={softSkills} />
       </div>
       <Footer />
     </div>
