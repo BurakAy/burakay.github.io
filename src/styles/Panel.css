@@ -9,14 +9,6 @@
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
-.panel-title {
-    font-size: calc(12px + 2vmin);
-    text-align: left;
-    color: #282c34;
-    text-transform: capitalize;
-    margin-bottom: .75rem;
-}
-
 .pill-tiles_list {
     display: flex;
     flex-wrap: wrap;
@@ -42,11 +34,7 @@
     }
 }
 
-@media (prefers-color-scheme: dark) {
-    .panel-title {
-        color: #ffffff;
-    }
-    
+@media (prefers-color-scheme: dark) {    
     .panel-wrapper {
         box-shadow: none;
         background-color: antiquewhite;
