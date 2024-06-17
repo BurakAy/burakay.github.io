@@ -1,0 +1,24 @@
+.featured-wrapper p {
+  text-align: left;
+  color: #000000;
+  font-size: calc(10px + 1.2vmin);
+}
+
+.featured-wrapper p a {
+  text-decoration: none;
+  margin-left: 0.3rem;
+}
+
+.featured__app-description {
+  margin-bottom: 0;
+}
+
+@media (prefers-color-scheme: dark) {   
+  .featured-wrapper p {
+    color: #ffffff;
+  }
+
+  .featured-wrapper p a {
+    color: #3a9dff;
+  }
+}
