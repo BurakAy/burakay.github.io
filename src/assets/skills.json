@@ -1,8 +1,10 @@
 {
   "tech_skills": [
-    "Python",
     "JavaScript",
+    "Java",
+    "Python",
     "React.js",
+    "Spring",
     "SQL",
     "JSON",
     "Git",
@@ -10,7 +12,6 @@
     "RESTful APIs",
     "Express.js",
     "Playwright",
-    "Web scraping",
     "RDBMS",
     "Azure",
     "HTML",
@@ -21,13 +22,13 @@
   ],
   "soft_skills": [
     "Adaptable",
+    "Reliable",
     "Critical thinker",
     "Quick learner",
     "Problem solver",
     "Good communicator",
     "Creative",
     "Independent",
-    "Analytical",
-    "Reliable"
+    "Analytical"
   ]
 }
