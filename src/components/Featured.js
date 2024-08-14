@@ -32,8 +32,8 @@ function Featured() {
         </a>
       </p>
       <p>
-        Technologies used: React, Express/Node, JavaScript, Playwright, Netlify,
-        CSS
+        Technologies used: JavaScript, React.js, Express.js, Playwright,
+        Netlify, CSS
       </p>
       <p className="featured__app-description">
         Site Data Scraper allows users to scrape textual data from a user
