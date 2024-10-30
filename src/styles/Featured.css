@@ -17,6 +17,16 @@
   margin-bottom: 0;
 }
 
+.projects-container {
+  padding-bottom: 25px;
+  border-bottom: 2px solid gray;
+}
+
+.projects-container:last-of-type {
+  border: none;
+  padding-bottom: 0;
+}
+
 @media (prefers-color-scheme: dark) {   
   .featured-wrapper p {
     color: #ffffff;
