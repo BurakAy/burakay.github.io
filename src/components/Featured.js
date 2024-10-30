@@ -1,6 +1,6 @@
 import "../styles/Featured.css";
 
-function Featured() {
+function Featured({ techProjects }) {
   const month = [
     "January",
     "February",
@@ -13,34 +13,32 @@ function Featured() {
     "September",
     "October",
     "November",
-    "December",
+    "December"
   ];
   const d = new Date();
   const currDate = month[d.getMonth()] + " " + d.getFullYear();
   return (
     <div className="featured-wrapper">
-      <h3 className="section-title">Featured Project - {currDate}</h3>
-      <p>
-        Site Data Scraper{" "}
-        <a
-          className="app-link"
-          href="https://sitescraper.netlify.app/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          sitescraper.netlify.app
-        </a>
-      </p>
-      <p>
-        Technologies used: JavaScript, React.js, Express.js, Playwright,
-        Netlify, CSS
-      </p>
-      <p className="featured__app-description">
-        Site Data Scraper allows users to scrape textual data from a user
-        defined URL. Users can label the data and pass in the selectors of the
-        elements containing the data to be scraped. Once the data has been
-        scraped, results are displayed to the user.
-      </p>
+      <h3 className="section-title">Featured Projects - {currDate}</h3>
+      {techProjects.map((project, index) => {
+        return (
+          <div key={index} className="projects-container">
+            <p>
+              {project.title}&nbsp;
+              <a
+                className="app-link"
+                href={project.link}
+                target="_blank"
+                rel="noreferrer"
+              >
+                {project.linkText}
+              </a>
+            </p>
+            <p>{project.techStack}</p>
+            <p className="featured__app-description">{project.description}</p>
+          </div>
+        );
+      })}
     </div>
   );
 }
