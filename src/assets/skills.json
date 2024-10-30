@@ -4,24 +4,29 @@
     "Java",
     "Python",
     "React.js",
+    "Node.js",
+    "RESTful APIs",
+    "Express.js",
+    "JWT",
     "Spring",
     "SQL",
     "JSON",
     "Git",
     "npm",
-    "RESTful APIs",
-    "Express.js",
+    "Jest",
     "Playwright",
     "RDBMS",
-    "Azure",
+    "DynamoDB",
+    "S3",
+    "EC2",
     "HTML",
     "CSS",
-    "Debugging",
     "Jira",
     "Agile"
   ],
   "soft_skills": [
     "Adaptable",
+    "Collaborative",
     "Reliable",
     "Critical thinker",
     "Quick learner",
@@ -29,6 +34,7 @@
     "Good communicator",
     "Creative",
     "Independent",
-    "Analytical"
+    "Analytical",
+    "Curious"
   ]
 }
