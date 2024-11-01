@@ -4,7 +4,7 @@
       "title": "Recipe Explorer",
       "link": "http://recipeexplorerfe.s3-website-us-west-1.amazonaws.com/",
       "linkText": "recipe-explorer.amazonaws.com",
-      "techStack": "React, Axios, MealDB API, Node.js, Express, JWT, Multer, AWS CodeBuild, AWS CodeDeploy, AWS CodePipeline, AWS DynamoDB, AWS EC2, AWS S3, AWS Secrets Manager",
+      "techStack": "TypeScript, React, Axios, MealDB API, Node.js, Express, JWT, Multer, AWS CodeBuild, AWS CodeDeploy, AWS CodePipeline, AWS DynamoDB, AWS EC2, AWS S3, AWS Secrets Manager",
       "description": "Recipe Explorer is a web application designed to make finding and sharing recipes easier and more engaging. Recipe Explorer offers a fresh way to discover recipes and connect with a community. Here’s how it works: users can browse as a guest or create an account. Users can leave reviews on recipes, rate them, add their own, and search for recipes by category, cuisine, and ingredient. To spice up mealtime, the app suggests random recipes you might enjoy. You can either skip to another recipe or dive in for full details if one catches your interest."
     },
     {
